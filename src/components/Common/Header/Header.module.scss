@@ -1,0 +1,24 @@
+.header {
+    width: 100%;
+    padding: 44px 0;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #E0E0E0;
+
+    &__name {
+        margin: 0;
+        margin-right: 25px;
+        color: #000;
+        font-size: 26px;
+        font-weight: 500;
+    }
+
+    &__btn {
+        color: #000;
+        font-size: 24px;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+}
